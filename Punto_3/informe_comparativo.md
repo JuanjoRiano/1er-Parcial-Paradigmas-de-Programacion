@@ -56,16 +56,9 @@ Los resultados muestran que la versión optimizada reduce significativamente el 
 
 En pruebas con 1000 registros, la reducción de memoria es notable y el impacto en el tiempo de ejecución es más evidente, beneficiando el rendimiento del sistema en gran escala.
 
-## Conclusión
-La implementación optimizada demuestra ser más eficiente tanto en términos de memoria como de rendimiento. Esto resalta la importancia del diseño adecuado de estructuras de datos y la administración efectiva de la memoria en aplicaciones de sistemas embebidos y software de gestión.
-
 ## Recomendaciones
 1. Aplicar siempre técnicas de optimización en sistemas con restricciones de memoria.
 2. Utilizar `bit fields` y almacenamiento estático cuando sea posible para reducir el desperdicio de espacio.
 3. Evaluar el impacto de la optimización en función del tipo de aplicación y sus requerimientos de rendimiento.
 4. Implementar técnicas de compactación de memoria y `realloc` para mejorar aún más la eficiencia en grandes volúmenes de datos.
-
----
-
-Este informe proporciona una comparación clara y detallada de los beneficios de la optimización en la gestión de memoria para sistemas de estudiantes.
 
