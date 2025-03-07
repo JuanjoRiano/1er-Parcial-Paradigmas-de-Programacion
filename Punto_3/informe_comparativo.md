@@ -9,7 +9,7 @@ Analizar el impacto de la optimización en el uso de memoria y el tiempo de ejec
 ## Metodología
 Se implementaron dos estructuras de datos:
 - **Sin optimización**: Utiliza `malloc` para reservar memoria para cada cadena de caracteres y mantiene valores enteros sin optimización de espacio.
-- **Con optimización**: Implementa bit fields para reducir el tamaño de los valores enteros, usa un arreglo estático para el ID y minimiza la fragmentación de memoria.
+- **Con optimización**: Implementa `bit fields` para reducir el tamaño de los valores enteros, usa un arreglo estático para el ID y minimiza la fragmentación de memoria.
 
 Cada versión se evaluó en términos de:
 1. Memoria utilizada
