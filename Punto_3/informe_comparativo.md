@@ -34,7 +34,7 @@ Cada versión se evaluó en términos de:
 +-------------------------+-----------------+-----------------+
 | Métrica                 | Sin Optimización | Con Optimización |
 +-------------------------+-----------------+-----------------+
-| Tiempo de ejecución    | 0.015 ms        | 0.012 ms        |
+| Tiempo de ejecución     | 0.015 ms        | 0.012 ms        |
 +-------------------------+-----------------+-----------------+
 ```
 
@@ -45,7 +45,7 @@ Para evaluar el comportamiento con múltiples registros, se realizaron pruebas c
 | Métrica                 | Sin Optimización | Con Optimización |
 +-------------------------+-----------------+-----------------+
 | Memoria utilizada total | 79,000 bytes    | 71,000 bytes    |
-| Tiempo de ejecución    | 12.8 ms         | 9.5 ms          |
+| Tiempo de ejecución     | 12.8 ms         | 9.5 ms          |
 +-------------------------+-----------------+-----------------+
 ```
 
